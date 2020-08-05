@@ -1,0 +1,52 @@
+*{
+	font-family: "Nunito", Montserrat, sans-serif;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+  background-image: linear-gradient(to right , rgb(204,  50, 163), rgb(76,   95, 215))
+                  , linear-gradient(to bottom, rgb(76,   95, 215), rgb(114,  35, 219))
+                  , linear-gradient(to left  , rgb(114,  35, 219), rgb(244, 111,  48))
+                  , linear-gradient(to top   , rgb(244, 111,  48), rgb(255, 220, 125));
+}
+
+h1, h2 {
+  margin: 1rem;
+  -webkit-text-stroke-width: 0.04rem;
+  -webkit-text-stroke-color: rgb(76, 95, 215);
+}
+
+button {
+  border: rgb(114,  35, 219) 0.2rem solid;
+  background-color: #FFFFFF !important;
+  -webkit-text-stroke-width: 0.05rem;
+  -webkit-text-stroke-color: #000000;
+}
+
+button:hover {
+  background-image: linear-gradient(to right , rgb(204,  50, 163), rgb(76,   95, 215))
+                  , linear-gradient(to bottom, rgb(76,   95, 215), rgb(114,  35, 219))
+                  , linear-gradient(to left  , rgb(114,  35, 219), rgb(244, 111,  48))
+                  , linear-gradient(to top   , rgb(244, 111,  48), rgb(255, 220, 125));
+}
+
+#pomodoro-circle {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: rgb(114,  35, 219) 0.3rem solid;
+  height: 12rem;
+  width:  12rem;
+  border-radius: 12rem;
+  background-image: linear-gradient(to right , rgb(204,  50, 163), rgb(76,   95, 215))
+                  , linear-gradient(to bottom, rgb(76,   95, 215), rgb(114,  35, 219))
+                  , linear-gradient(to left  , rgb(114,  35, 219), rgb(244, 111,  48))
+                  , linear-gradient(to top   , rgb(244, 111,  48), rgb(255, 220, 125));
+}
+
+#pomodoro-circle h2 {
+  vertical-align: middle;
+  line-height: 5rem;
+}
